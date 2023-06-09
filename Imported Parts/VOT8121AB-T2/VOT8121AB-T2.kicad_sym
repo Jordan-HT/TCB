@@ -1,0 +1,144 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "VOT8121AB-T2" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -5.08 5.842 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "VOT8121AB-T2" (id 1) (at -5.08 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SOIC254P1016X440-4N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.1" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "4.4mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Vishay Semiconductor Opto Division" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "VOT8121AB-T2_0_0"
+      (polyline
+        (pts (xy -5.08 2.54) (xy -3.302 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 2.54) (xy -3.302 -0.414)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 -0.414) (xy -2.542 -0.414)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -0.414) (xy -4.066 -0.414)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.066 -0.414) (xy -3.304 -1.176)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.304 -1.176) (xy -2.542 -0.414)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.066 -1.397) (xy -3.302 -1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -1.397) (xy -2.542 -1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.302 -1.397) (xy -3.302 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.302 -5.08) (xy -5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.032) (xy 2.54 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.792 -0.922) (xy 1.268 -0.922)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.268 -0.922) (xy 2.03 -1.684)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.03 -1.684) (xy 2.792 -0.922)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.542 -1.872) (xy 4.066 -1.872)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.066 -1.872) (xy 3.304 -1.11)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.304 -1.11) (xy 2.542 -1.872)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.792 -0.922) (xy 4.076 -0.922)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.256 -1.872) (xy 2.542 -1.872)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 2.54 -0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 -0.762) (xy 0.254 -1.27)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy 0.254 -1.27) (xy 0.127 -0.762)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy 0.254 -1.27) (xy -0.254 -1.397)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy -0.762 -0.762) (xy -0.762 -1.143)) (stroke (width 0.2032))
+      )
+      (polyline
+        (pts (xy -0.762 -1.143) (xy -1.397 -0.889)) (stroke (width 0.2032))
+      )
+      (rectangle (start -5.08 -7.62) (end 5.08 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
